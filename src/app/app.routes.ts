@@ -11,6 +11,7 @@ import { ViewTodoComponent } from './view-todo/view-todo.component';
 
 export const router: Routes = [
     { path: '', redirectTo: 'login', pathMatch: 'full' },
+    // {path: '**', redirectTo: 'home'},
     { path: 'login', component: LoginComponent },
     { path: 'signup', component: SignupComponent },
     { path: 'home', children:[
