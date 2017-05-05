@@ -1,14 +1,13 @@
 <h2>Home</h2><hr>
-<button (click)="logout()" class="basic-btn">Logout</button>
+
  <button><a routerLink="/home/add-todo" >Add Todo</a></button>
  <button><a routerLink="/home/view-todo" >View Todo</a></button>
-<div class="form-container" id="toolbar">
-    <header >
-      <button (click)="logout()" class="basic-btn">Logout Now</button>
-    </header>
+ <button (click)="logout()" >Logout</button>
+
+<div >
     
-    <div id="page">
-      <h2>Hey {{ name.auth.displayName }}!</h2>
+    <div>
+      <h3>Hi {{ name.auth.email }} !</h3>
     </div>
-    
+    <router-outlet></router-outlet>
 </div>
