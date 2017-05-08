@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 
 import { AuthGuard } from './auth.service';
 import { routes } from './app.routes';
+import { ChildComponent } from './child/child.component';
 
 export const firebaseConfig = {
     apiKey: "AIzaSyD_2-Wzj0lvp6SAKCiAfyxqbK-_-Oclfx8",
@@ -30,7 +31,8 @@ export const firebaseConfig = {
     SignupComponent,
     AddTodoComponent,
     ViewTodoComponent,
-    HomeComponent
+    HomeComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,

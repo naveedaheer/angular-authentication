@@ -9,5 +9,7 @@
     <div>
       <h3>Hi {{ name.auth.email }} !</h3>
     </div>
+    <app-child [parentTextInChild]="parentText" ></app-child>
     <router-outlet></router-outlet>
+
 </div>

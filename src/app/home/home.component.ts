@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
   }
 
     name: any;
-  state: string = '';
+    parentText:string = "text from parent";
 
   constructor(public af: AngularFire,private router: Router) {
 
